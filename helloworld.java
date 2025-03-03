@@ -1,1 +1,7 @@
-mvn archetype:generate -DgroupId=com.example -DartifactId=helloworld -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+class helloworld
+{
+  public static void main(String args[])
+{
+   System.out.println("welcome");
+}
+}
